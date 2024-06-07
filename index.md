@@ -19,7 +19,7 @@
 		</div><!-- /.container -->
 		<footer>
     		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
+        		<li><a href="mailto:easy2breezy@yandex.ru">email</a></li>
         	
 			</ul>
 		</footer>
