@@ -7,6 +7,7 @@
     .my-image {
       float: right;
       margin-left: 20px;
+      margin-top: -50px;
     }
   </style>
 	</head>
