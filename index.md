@@ -11,11 +11,19 @@
       
     }
   </style>
+  <style>
+    .my-nav a {
+      margin-right: 20px;
+    }
+  </style>
 	</head>
 	<body>
-		<nav>
-        		<a href="/">Home</a>     <a href="/about">About</a>     <a href="/blog">Blog</a>          <a href="/contact">Contact me</a>
-		</nav>
+		<nav class="my-nav">
+  <a href="/">Home</a>
+  <a href="/about">About</a>
+  <a href="/blog">Blog</a>
+  <a href="/contact">Contact me</a>
+</nav>
   <img src="pics/photo.jpg" class="my-image" width="200">
 		<div class="container">
     		<div class="blurb">
