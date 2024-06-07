@@ -13,7 +13,7 @@
   </style>
   <style>
     .my-nav a {
-      margin-right: 20px;
+      margin-right: 30px;
     }
   </style>
 	</head>
