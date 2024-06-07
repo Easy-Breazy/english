@@ -8,7 +8,7 @@
       float: right;
       margin-left: 20px;
       margin-top: -50px;
-      border: 5px solid blue;
+      border: 5px solid #157878;
     }
   </style>
 	</head>
