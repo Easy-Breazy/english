@@ -1,7 +1,7 @@
 
 <html>
 	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
+		<title>Easy Breezy English</title>
 	</head>
 	<body>
 		<nav>
