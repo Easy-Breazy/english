@@ -2,6 +2,13 @@
 <html>
 	<head>
 		<title>Easy Breezy English</title>
+	
+  <style>
+    .my-image {
+      float: right;
+      margin-left: 20px;
+    }
+  </style>
 	</head>
 	<body>
 		<nav>
@@ -14,7 +21,7 @@
 		<div class="container">
     		<div class="blurb">
         		<h1>Hi there, I'm Anastasia!</h1>
-			<img src="pics/photo.jpg">	
+			<img src="pics/photo.jpg" class="my-image">
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
 		<footer>
