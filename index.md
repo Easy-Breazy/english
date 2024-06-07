@@ -19,10 +19,10 @@
         		<li><a href="/blog">Blog</a></li>
     		</ul>
 		</nav>
+  <img src="pics/photo.jpg" class="my-image">
 		<div class="container">
     		<div class="blurb">
         		<h1>Hi there, I'm Anastasia!</h1>
-			<img src="pics/photo.jpg" class="my-image">
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
 		<footer>
