@@ -19,7 +19,7 @@
         		<li><a href="/blog">Blog</a></li>
     		</ul>
 		</nav>
-  <img src="pics/photo.jpg" class="my-image">
+  <img src="pics/photo.jpg" class="my-image" width="200">
 		<div class="container">
     		<div class="blurb">
         		<h1>Hi there, I'm Anastasia!</h1>
