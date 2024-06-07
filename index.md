@@ -7,14 +7,14 @@
     .my-image {
       float: right;
       margin-left: 20px;
-      margin-top: -50px;
-      border: 3px solid #157878;
+      margin-top: -30px;
+      
     }
   </style>
 	</head>
 	<body>
 		<nav>
-        		<a href="/">Home</a><a href="/about">About</a><a href="/blog">Blog</a>
+        		<a href="/">Home</a>  <a href="/about">About</a>  <a href="/blog">Blog</a>
 		</nav>
   <img src="pics/photo.jpg" class="my-image" width="200">
 		<div class="container">
