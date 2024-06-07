@@ -14,7 +14,7 @@
 		<div class="container">
     		<div class="blurb">
         		<h1>Hi there, I'm Anastasia!</h1>
-				
+			<img src="pics/photo.jpg>	
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
 		<footer>
