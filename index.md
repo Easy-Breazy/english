@@ -26,12 +26,10 @@
       text-align: left;
     }
     .contact-info a {
-      /* add some right margin to separate the links */
       margin-right: 20px;
       font-size: 30px;
     }
     h2 {
-      
       text-align: left;
       margin-right: -100px;
     }
