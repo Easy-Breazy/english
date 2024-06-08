@@ -29,6 +29,10 @@
       margin-right: 20px;
       font-size: 30px;
     }
+    h2 {
+      
+      text-align: left; 
+    }
   </style>
 	</head>
 	<body>
