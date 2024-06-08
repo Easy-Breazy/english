@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -31,6 +32,7 @@
 
     .my-nav a {
       margin-right: 30px;
+      margin-left: 30px;
     }
 
     /* Media query for small devices */
@@ -53,6 +55,7 @@
 
   <!-- Use Bootstrap's grid system for the main content -->
   <div class="container">
+    <!-- Wrap the columns inside a row -->
     <div class="row">
       <div class="col-md-8 col-sm-12"> <!-- Updated column size for the headline 1 content -->
         <h1>Помогаю достигать цели и преодолевать барьеры</h1>
