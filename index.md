@@ -28,9 +28,9 @@
 	</head>
 	<body>
 		<nav class="my-nav">
-  <a href="/">Home</a>
-  <a href="/about">Обо мне</a>
-  <a href="/blog">Блог</a>
+  <a href="/">Обо мне</a>
+  <a href="/about">Как проходит обучение</a>
+  <a href="/blog">Отзывы</a>
   <a href="/contact">Контакты</a>
 </nav>
   <img src="pics/prof.jpg" class="my-image" width="300">
