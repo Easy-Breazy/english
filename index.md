@@ -47,11 +47,9 @@
 		<div class="container">
     		<div class="blurb">
         		<h2 id="about-me">Обо мне</h2>
-         <p>L"Hello, I'm Jane Doe, and I'm passionate about helping students of all ages and backgrounds improve their English language skills. I have a degree in English literature from the University of XYZ, and I've been teaching English for over 10 years.
+         <p>L"Hello, I'm Jane Doe, and I'm passionate about helping students of all ages and backgrounds improve their English language skills. I have a degree in English literature from the University of XYZ, and I've been teaching English for over 10 years.</p>
 
-I believe that learning a new language is not just about memorizing grammar rules and vocabulary lists, but about immersing yourself in the culture and history of the people who speak it. That's why I incorporate a variety of engaging and interactive activities into my lessons, such as watching and discussing movies and TV shows, reading and analyzing literature, and exploring current events and social issues.
-
-In my free time, I enjoy traveling, hiking, and practicing yoga. I'm also an avid reader and writer, and I'm currently working on my first novel..</p>
+<p>I believe that learning a new language is not just about memorizing grammar rules and vocabulary lists, but about immersing yourself in the culture and history of the people who speak it. That's why I incorporate a variety of engaging and interactive activities into my lessons, such as watching and discussing movies and TV shows, reading and analyzing literature, and exploring current events and social issues.</p>
     		</div><!-- /.blurb -->
   
           <div class="blurb">
