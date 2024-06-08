@@ -27,9 +27,7 @@
       margin-right: 20px;
       font-size: 30px;
     }
-    h2 {
-      margin-left: -100px;
-    }
+   
 
 .blurb {
       text-align: left;
