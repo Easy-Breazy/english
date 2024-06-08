@@ -24,7 +24,7 @@
 }
 </style>
 	</head>
-	<body>
+ <body>
 		<nav class="my-nav">
   <a href="#about-me">Обо мне</a>
   <a href="#how-it-works">Как проходит обучение</a>
@@ -55,7 +55,6 @@
         <a href="mailto:easy2breezy@yandex.ru"><i class="fas fa-envelope"></i></a>
     </p>
         </div>
-
 
 </body>
 </html>
