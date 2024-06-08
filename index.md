@@ -6,7 +6,6 @@
     .my-image {
       float: right;
       margin-top: 50px;
-      /* add a left margin to move the image to the right */
       margin-left: 50px;
     }
   </style>
@@ -17,14 +16,11 @@
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
   <style>
-    h1 {
-      /* change the color to #1e6bb8 */
-      color: #1e6bb8;
+
     }
-    /* use a more specific selector to target only the h2 elements in the container div */
-    .container h2 {
+    h2 {
       /* change the color to #1e6bb8 */
-      color: #1e6bb8;
+      color: #1e6bb8 !important;
     }
     .contact-info {
       /* add some top margin to separate the contact info from the section title */
