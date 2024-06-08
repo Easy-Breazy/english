@@ -92,6 +92,7 @@
       </p>
 
       <div id="how-it-works">
+      <div class="headline-content">
         <h2>Как проходит обучение</h2>
         <ul>
           <li>Шаг 1: Бесплатная часовая диагностика<br> 
