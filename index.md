@@ -36,7 +36,8 @@
     }
     h2 {
       
-      text-align: left; 
+      text-align: left;
+      margin-right: -100px;
     }
   </style>
 	</head>
