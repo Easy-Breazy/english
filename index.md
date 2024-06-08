@@ -66,6 +66,12 @@
         margin-top: 20px;
       }
     }
+     }
+
+    /* New styles for the list items */
+    .headline-content ul {
+      line-height: 1.3;
+    }
   </style>
 </head>
 
