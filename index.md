@@ -31,7 +31,6 @@
 
     .my-nav a {
       margin-right: 30px;
-      margin-left: 30px;
     }
 
     /* Media query for small devices */
