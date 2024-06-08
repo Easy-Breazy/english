@@ -8,7 +8,7 @@
       float: right;
       margin-top: 0px;
       margin-right: -100px;
-      padding-left: 40px;
+      padding-left: 60px;
     }
 	  
    .my-nav a {
