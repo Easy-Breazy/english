@@ -37,13 +37,14 @@
   </style>
 	</head>
 	<body>
+	 <img src="pics/prof.jpg" class="my-image" width="300">
 		<nav class="my-nav">
   <a href="#about-me">Обо мне</a>
   <a href="#how-it-works">Как проходит обучение</a>
   <a href="#reviews">Отзывы</a>
   <a href="#contacts">Контакты</a>
 </nav>
-  <img src="pics/prof.jpg" class="my-image" width="300">
+ 
 		<div class="container">
     		<div class="blurb">
         		<h2 id="about-me">Обо мне</h2>
