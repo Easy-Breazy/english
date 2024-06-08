@@ -16,6 +16,7 @@
       margin-right: 30px;
     }
   </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 	</head>
 	<body>
 		<nav class="my-nav">
@@ -31,14 +32,14 @@
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
 	
-    <!-- New footer section -->
-    <div class="footer">
-        <p>КОНТАКТЫ</p>
+   <!-- New footer section -->
+<div class="footer">
+    <p>КОНТАКТЫ</p>
     <p>
-            <a href="https://telegram.me/easy_breezy_english">Telegram</a> |
-            <a href="mailto:easy2breezy@yandex.ru">Email</a>
-        </p>
-    </div>
+        <a href="https://telegram.me/easy_breezy_english"><i class="fab fa-telegram-plane"></i></a> |
+        <a href="mailto:easy2breezy@yandex.ru"><i class="fas fa-envelope"></i></a>
+    </p>
+</div>
 
 </body>
 </html>
