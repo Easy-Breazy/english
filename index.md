@@ -12,21 +12,16 @@
   </style>
   <style>
     .my-nav a {
-      margin-right: 30px;
+      margin-right: 0px;
     }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
   <style>
 
     }
-    h2 {
-      /* change the color to #1e6bb8 */
-      color: #1e6bb8 !important;
-    }
+   
     .contact-info {
-      /* add some top margin to separate the contact info from the section title */
       margin-top: 20px;
-      /* center the links horizontally */
       text-align: left;
     }
     .contact-info a {
