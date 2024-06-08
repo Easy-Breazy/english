@@ -16,7 +16,7 @@
   <style>
     /* Updated styles for the image */
     .my-image {
-      width: 75%;
+      width: 100%; /* The image will now take up the full width of the column */
       height: auto;
       margin-top: 30px;
       margin-bottom: 30px;
@@ -55,11 +55,7 @@
   <!-- Use Bootstrap's grid system for the main content -->
   <div class="container">
     <div class="row">
-      <div class="col-md-6 col-sm-12">
-        <!-- Updated the image to be responsive -->
-        <img src="pics/prof.jpg" class="my-image img-fluid" alt="Teacher's profile picture">
-      </div>
-      <div class="col-md-6 col-sm-12">
+      <div class="col-md-8 col-sm-12"> <!-- Updated column size for the headline 1 content -->
         <h1>Помогаю достигать цели и преодолевать барьеры</h1>
         <ul>
           <li>преподаватель английского-билингв</li>
@@ -96,7 +92,12 @@
             <a href="mailto:easy2breezy@yandex.ru"><i class="fas fa-envelope fa-2x"></i></a>
           </div>
         </div>
-      </div><!-- /.col-md-6 -->
+      </div><!-- /.col-md-8 -->
+
+      <div class="col-md-4 col-sm-12"> <!-- New column for the image -->
+        <!-- Updated the image to be responsive and placed to the right of the headline 1 -->
+        <img src="pics/prof.jpg" class="my-image img-fluid" alt="Teacher's profile picture">
+      </div><!-- /.col-md-4 -->
     </div><!-- /.row -->
   </div><!-- /.container -->
 
