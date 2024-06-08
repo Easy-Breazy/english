@@ -50,19 +50,14 @@
 
         <div id="contacts">
             <h2>Контакты</h2>
-            <!-- add content for the "Контакты" section here -->
+            <p>
+        <a href="https://telegram.me/easy_breezy_english"><i class="fab fa-telegram-plane"></i></a> |
+        <a href="mailto:easy2breezy@yandex.ru"><i class="fas fa-envelope"></i></a>
+    </p>
         </div>
 
 		</div><!-- /.container -->
 
-   <!-- New footer section -->
-<div class="footer">
-    <p id="contacts-anchor">КОНТАКТЫ</p> <!-- added id="contacts-anchor" to the tag -->
-    <p>
-        <a href="https://telegram.me/easy_breezy_english"><i class="fab fa-telegram-plane"></i></a> |
-        <a href="mailto:easy2breezy@yandex.ru"><i class="fas fa-envelope"></i></a>
-    </p>
-</div>
 
 </body>
 </html>
