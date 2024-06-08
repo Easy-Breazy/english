@@ -28,7 +28,6 @@
       font-size: 30px;
     }
     h2 {
-      text-align: left;
       margin-left: -100px;
     }
 
