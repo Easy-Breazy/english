@@ -29,7 +29,7 @@
       /* add some top margin to separate the contact info from the section title */
       margin-top: 20px;
       /* center the links horizontally */
-      text-align: center;
+      text-align: left;
     }
     .contact-info a {
       /* add some right margin to separate the links */
