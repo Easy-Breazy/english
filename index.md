@@ -17,6 +17,11 @@
     }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+  <style>
+    .footer p:first-child {
+        color: #1e6bb8;
+    }
+</style>
 	</head>
 	<body>
 		<nav class="my-nav">
