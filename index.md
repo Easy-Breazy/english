@@ -31,7 +31,7 @@
     }
     h2 {
       text-align: left;
-      margin-right: -100px;
+      margin-left: -100px;
     }
   </style>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
