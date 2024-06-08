@@ -47,7 +47,7 @@
   <img src="pics/prof.jpg" class="my-image" width="300">
 		<div class="container">
     		<div class="blurb">
-        		<h1 id="about-me">Обо мне</h1>
+        		<h2 id="about-me">Обо мне</h2>
          <!-- add content for the "Обо мне" section here -->
     		</div><!-- /.blurb -->
 
