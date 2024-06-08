@@ -7,12 +7,12 @@
     .my-image {
       float: right;
       margin-top: 50px;
-      margin-right: -20px;
+      margin-right: -40px;
     }
   </style>
   <style>
     .my-nav a {
-      margin-right: 30px;
+      margin-left: -20px;
       text-align: left;
     }
   </style>
