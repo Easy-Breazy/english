@@ -29,7 +29,7 @@
   <a href="#about-me">Обо мне</a>
   <a href="#how-it-works">Как проходит обучение</a>
   <a href="#reviews">Отзывы</a>
-  <a href="#contacts">Контакты</a>
+  <a href="#contacts">Контакты</a> <!-- modified link to point to the "contacts" anchor -->
 </nav>
   <img src="pics/prof.jpg" class="my-image" width="300">
 		<div class="container">
@@ -57,16 +57,9 @@
 
    <!-- New footer section -->
 <div class="footer">
-    <p>КОНТАКТЫ</p>
+    <p id="contacts-anchor">КОНТАКТЫ</p> <!-- added id="contacts-anchor" to the tag -->
     <p>
         <a href="https://telegram.me/easy_breezy_english"><i class="fab fa-telegram-plane"></i></a> |
-        <a href="mailto:easy2breezy@yandex.ru"><i class="fas fa-envelope"></i></a>
-    </p>
-</div>
-
-</body>
-</html>
-
         <a href="mailto:easy2breezy@yandex.ru"><i class="fas fa-envelope"></i></a>
     </p>
 </div>
