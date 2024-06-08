@@ -11,8 +11,8 @@
     }
   </style>
   <style>
-    .my-nav a {
-      margin-left: -20px;
+   .my-nav a {
+      margin-right: 30px;
       text-align: left;
     }
   </style>
