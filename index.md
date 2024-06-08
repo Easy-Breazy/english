@@ -17,7 +17,7 @@
   <style>
     .container {
       /* add a width value that's narrower than the default 100% */
-      width: 120%;
+      width: 150%;
       /* center the container horizontally */
       margin: 0 auto;
     }
