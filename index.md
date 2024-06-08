@@ -22,24 +22,6 @@
       margin-bottom: 30px;
     }
 
-    /* Updated styles for the navigation menu */
-    .my-nav {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 30px;
-    }
-
-    .my-nav a {
-      margin-left: 30px;
-    }
-
-    /* Media query for small devices */
-    @media only screen and (max-width: 600px) {
-      .my-nav a {
-        margin-right: 15px;
-        margin-left: 15px;
-      }
-    }
 
     /* New styles for the headline 1 content and image container */
     .headline-container {
