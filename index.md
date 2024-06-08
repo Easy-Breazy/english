@@ -18,6 +18,7 @@
  .my-nav {
       margin-left: -100px;
       text-align: left;
+      margin-bottom: 30px;
     }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
