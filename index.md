@@ -7,7 +7,7 @@
     .my-image {
       float: right;
       margin-top: 50px;
-      margin-right: -70px;
+      margin-right: -100px;
     }
   </style>
   <style>
@@ -16,7 +16,7 @@
       text-align: left;
     }
  .my-nav {
-      margin-left: -60px;
+      margin-left: -100px;
       text-align: left;
     }
   </style>
