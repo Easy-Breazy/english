@@ -4,9 +4,9 @@
 
   <style>
     .my-image {
-      float: right;
+      float: left; /* change to float: left to move the image to the left */
       margin-top: 50px;
-      margin-left: 50px;
+      margin-right: 50px; /* change to margin-right to add space to the right of the image */
     }
   </style>
   <style>
@@ -16,18 +16,25 @@
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
   <style>
-
+    h1 {
+      /* change the color to #1e6bb8 */
+      color: #1e6bb8;
+      text-align: right; /* add text-align: right to align the text to the right */
     }
+
     h2 {
       /* change the color to #1e6bb8 */
       color: #1e6bb8 !important;
+      text-align: right; /* add text-align: right to align the text to the right */
     }
+
     .contact-info {
       /* add some top margin to separate the contact info from the section title */
       margin-top: 20px;
       /* center the links horizontally */
       text-align: left;
     }
+
     .contact-info a {
       /* add some right margin to separate the links */
       margin-right: 20px;
@@ -44,7 +51,7 @@
   <img src="pics/prof.jpg" class="my-image" width="300">
 		<div class="container">
     		<div class="blurb">
-        		<h2 id="about-me">Обо мне</h2>
+        		<h1 id="about-me">Обо мне</h1>
          <!-- add content for the "Обо мне" section here -->
     		</div><!-- /.blurb -->
 
