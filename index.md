@@ -33,6 +33,7 @@
     }
 
 .blurb {
+      text-align: left;
       margin-left: -80px;
     }
   </style>
