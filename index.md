@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -10,7 +11,7 @@
       margin-right: -140px;
       padding-left: 50px;
     }
-	  
+
    .my-nav a {
       margin-right: 30px;
     }
@@ -27,7 +28,7 @@
       margin-right: 20px;
       font-size: 30px;
     }
-   
+
 .blurb {
       text-align: left;
       margin-left: -80px;
@@ -36,7 +37,7 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 	</head>
 	<body>
-	 
+
 		<nav class="my-nav">
   <a href="#about-me">Обо мне</a>
   <a href="#how-it-works">Как проходит обучение</a>
@@ -53,7 +54,7 @@ I believe that learning a new language is not just about memorizing grammar rule
 
 In my free time, I enjoy traveling, hiking, and practicing yoga. I'm also an avid reader and writer, and I'm currently working on my first novel..</p>
     		</div><!-- /.blurb -->
-  
+
           <div class="blurb">
 	   <div id="how-it-works">
             <h2>Как проходит обучение</h2>
