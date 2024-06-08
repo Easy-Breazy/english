@@ -16,7 +16,7 @@
   <style>
     /* Updated styles for the image */
     .my-image {
-      max-width: 100%;
+      max-width: 90%;
       height: auto;
       margin-top: 30px;
       margin-bottom: 30px;
