@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -17,7 +16,7 @@
   <style>
     /* Updated styles for the image */
     .my-image {
-      width: 100%; /* The image will now take up the full width of the column */
+      max-width: 100%;
       height: auto;
       margin-top: 30px;
       margin-bottom: 30px;
@@ -31,7 +30,6 @@
     }
 
     .my-nav a {
-      margin-right: 30px;
       margin-left: 30px;
     }
 
@@ -40,6 +38,32 @@
       .my-nav a {
         margin-right: 15px;
         margin-left: 15px;
+      }
+    }
+
+    /* New styles for the headline 1 content and image container */
+    .headline-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .headline-content {
+      flex-grow: 1;
+      margin-right: 20px;
+    }
+
+    .headline-image {
+      flex-basis: 300px;
+      margin-top: 20px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .headline-content {
+        margin-right: 0;
+      }
+      .headline-image {
+        flex-basis: 100%;
+        margin-top: 20px;
       }
     }
   </style>
@@ -55,9 +79,9 @@
 
   <!-- Use Bootstrap's grid system for the main content -->
   <div class="container">
-    <!-- Wrap the columns inside a row -->
-    <div class="row">
-      <div class="col-md-8 col-sm-12"> <!-- Updated column size for the headline 1 content -->
+    <!-- New container for the headline 1 content and image -->
+    <div class="headline-container">
+      <div class="headline-content">
         <h1>Помогаю достигать цели и преодолевать барьеры</h1>
         <ul>
           <li>преподаватель английского-билингв</li>
@@ -65,41 +89,50 @@
           <li>выпускница Бирмингемского университета (UK)</li>
           <li>15 лет успешной практики в США, Европе и России</li>
         </ul>
+      </div>
 
-        <h2 id="about-me">Обо мне</h2>
-        <p>Здравствуйте, друзья!</p>
-
-        <p>
-          "Hello, I'm Jane Doe, and I'm passionate about helping students of all ages and backgrounds improve their English language skills. I have a degree in English literature from the University of XYZ, and I've been teaching English for over 10 years.
-        </p>
-
-        <p>
-          I believe that learning a new language is not just about memorizing grammar rules and vocabulary lists, but about immersing yourself in the culture and history of the people who speak it. That's why I incorporate a variety of engaging and interactive activities into my lessons, such as watching and discussing movies and TV shows, reading and analyzing literature, and exploring current events and social issues.
-        </p>
-
-        <div id="how-it-works">
-          <h2>Как проходит обучение</h2>
-          <!-- add content for the "Как проходит обучение" section here -->
-        </div>
-
-        <div id="reviews">
-          <h2>Отзывы</h2>
-          <!-- add content for the "Отзывы" section here -->
-        </div>
-
-        <div id="contacts">
-          <h2>Контакты</h2>
-          <div class="contact-info text-center">
-            <a href="https://telegram.me/easy_breezy_english"><i class="fab fa-telegram-plane fa-2x"></i></a>
-            <a href="mailto:easy2breezy@yandex.ru"><i class="fas fa-envelope fa-2x"></i></a>
-          </div>
-        </div>
-      </div><!-- /.col-md-8 -->
-
-      <div class="col-md-4 col-sm-12"> <!-- New column for the image -->
+      <div class="headline-image">
         <!-- Updated the image to be responsive and placed to the right of the headline 1 -->
         <img src="pics/prof.jpg" class="my-image img-fluid" alt="Teacher's profile picture">
-      </div><!-- /.col-md-4 -->
+      </div>
+    </div><!-- /.headline-container -->
+
+    <div class="blurb">
+      <h2 id="about-me">Обо мне</h2>
+      <p>Здравствуйте, друзья!</p>
+
+      <p>
+        "Hello, I'm Jane Doe, and I'm passionate about helping students of all ages and backgrounds improve their English language skills. I have a degree in English literature from the University of XYZ, and I've been teaching English for over 10 years.
+      </p>
+
+      <p>
+        I believe that learning a new language is not just about memorizing grammar rules and vocabulary lists, but about immersing yourself in the culture and history of the people who speak it. That's why I incorporate a variety of engaging and interactive activities into my lessons, such as watching and discussing movies and TV shows, reading and analyzing literature, and exploring current events and social issues.
+      </p>
+
+      <div id="how-it-works">
+        <h2>Как проходит обучение</h2>
+        <!-- add content for the "Как проходит обучение" section here -->
+      </div>
+
+      <div id="reviews">
+        <h2>Отзывы</h2>
+        <!-- add content for the "Отзывы" section here -->
+      </div>
+
+      <div id="contacts">
+        <h2>Контакты</h2>
+        <div class="contact-info text-center">
+          <a href="https://telegram.me/easy_breezy_english"><i class="fab fa-telegram-plane fa-2x"></i></a>
+          <a href="mailto:easy2breezy@yandex.ru"><i class="fas fa-envelope fa-2x"></i></a>
+        </div>
+      </div>
+    </div><!-- /.blurb -->
+  </div><!-- /.container -->
+
+</body>
+
+</html>
+
     </div><!-- /.row -->
   </div><!-- /.container -->
 
