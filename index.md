@@ -93,7 +93,7 @@
 
       <div class="headline-image">
         <!-- Updated the image to be responsive and placed to the right of the headline 1 -->
-        <img src="pics/prof.jpg" class="my-image img-fluid" alt="Teacher's profile picture">
+        <img src="pics/prof.png" class="my-image img-fluid" alt="Teacher's profile picture">
       </div>
     </div><!-- /.headline-container -->
 
