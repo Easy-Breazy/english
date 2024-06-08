@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Easy Breezy English</title>
@@ -12,14 +12,21 @@
   </style>
   <style>
     .my-nav a {
-       margin-left: -50px; 
+      margin-right: 30px;
     }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
   <style>
-
+    body::after {
+      content: "";
+      display: table;
+      clear: both;
     }
-   
+
+    .wrapper {
+      margin-left: 20px; /* adjust this value as needed */
+    }
+
     .contact-info {
       margin-top: 20px;
       text-align: left;
@@ -30,20 +37,20 @@
       font-size: 30px;
     }
     h2 {
-      
       text-align: left;
-      margin-left: -50px;
     }
   </style>
 	</head>
 	<body>
-		<nav class="my-nav">
-  <a href="#about-me">Обо мне</a>
-  <a href="#how-it-works">Как проходит обучение</a>
-  <a href="#reviews">Отзывы</a>
-  <a href="#contacts">Контакты</a>
-</nav>
-  <img src="pics/prof.jpg" class="my-image" width="300">
+    <div class="wrapper">
+      <nav class="my-nav">
+        <a href="#about-me">Обо мне</a>
+        <a href="#how-it-works">Как проходит обучение</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <img src="pics/prof.jpg" class="my-image" width="300">
+    </div>
 		<div class="container">
     		<div class="blurb">
         		<h2 id="about-me">Обо мне</h2>
