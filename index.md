@@ -57,8 +57,9 @@ I believe that learning a new language is not just about memorizing grammar rule
 
 In my free time, I enjoy traveling, hiking, and practicing yoga. I'm also an avid reader and writer, and I'm currently working on my first novel..</p>
     		</div><!-- /.blurb -->
-
-            <h2 id="how-it-works">Как проходит обучение</h2>
+  
+           <div id="how-it-works">
+            <h2>Как проходит обучение</h2>
             <!-- add content for the "Как проходит обучение" section here -->
         </div>
 
