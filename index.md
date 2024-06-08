@@ -5,7 +5,7 @@
   <style>
     .my-image {
       float: right;
-      margin-top: -30px;
+      margin-top: -50px;
     }
   </style>
   <style>
