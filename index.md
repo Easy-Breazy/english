@@ -27,6 +27,7 @@
     .contact-info a {
       /* add some right margin to separate the links */
       margin-right: 20px;
+      font-size: 30px;
     }
   </style>
 	</head>
