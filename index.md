@@ -47,7 +47,13 @@
  <img src="pics/prof.jpg" class="my-image" width="350">
  <div class="container">
     		<div class="blurb">
-        		<h1>Hi there, I'm Anastasia!</h1>
+        		<h1>Анастасия Большакова</h1>
+ <ul>
+            <li>билингв с опытом работы в США, Европе и России</li>
+            <li>более 15 лет успешной практики</li>
+            <li>помогаю достигать цели и преодолевать барьеры</li>
+          </ul>
+   
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
 		<div class="container">
