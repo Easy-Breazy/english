@@ -8,12 +8,10 @@
       float: right;
       margin-top: 0px;
       margin-right: -100px;
-      padding-left: 20px;
     }
 	  
    .my-nav a {
       margin-right: 30px;
-      text-align: left;
     }
  .my-nav {
       margin-left: -100px;
