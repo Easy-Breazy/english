@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -17,7 +16,7 @@
   <style>
     /* Updated styles for the image */
     .my-image {
-      max-width: 100%;
+      width: 75%;
       height: auto;
       margin-top: 30px;
       margin-bottom: 30px;
