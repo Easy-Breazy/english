@@ -1,14 +1,12 @@
-
 <html>
 	<head>
 		<title>Easy Breezy English</title>
-	
+
   <style>
     .my-image {
       float: right;
-      margin-left: 30px;
+      margin-left: 50px; /* increased margin-left to move the photo more to the right */
       margin-top: -30px;
-      
     }
   </style>
   <style>
@@ -28,23 +26,47 @@
 	</head>
 	<body>
 		<nav class="my-nav">
-  <a href="/">Обо мне</a>
-  <a href="/about">Как проходит обучение</a>
-  <a href="/blog">Отзывы</a>
-  <a href="/contact">Контакты</a>
+  <a href="#about-me">Обо мне</a>
+  <a href="#how-it-works">Как проходит обучение</a>
+  <a href="#reviews">Отзывы</a>
+  <a href="#contacts">Контакты</a>
 </nav>
   <img src="pics/prof.jpg" class="my-image" width="300">
 		<div class="container">
     		<div class="blurb">
-        		<h1>Hi there, I'm Anastasia!</h1>
+        		<h1 id="about-me">Обо мне</h1>
+         <!-- add content for the "Обо мне" section here -->
     		</div><!-- /.blurb -->
+
+        <div id="how-it-works">
+            <h2>Как проходит обучение</h2>
+            <!-- add content for the "Как проходит обучение" section here -->
+        </div>
+
+        <div id="reviews">
+            <h2>Отзывы</h2>
+            <!-- add content for the "Отзывы" section here -->
+        </div>
+
+        <div id="contacts">
+            <h2>Контакты</h2>
+            <!-- add content for the "Контакты" section here -->
+        </div>
+
 		</div><!-- /.container -->
-	
+
    <!-- New footer section -->
 <div class="footer">
     <p>КОНТАКТЫ</p>
     <p>
         <a href="https://telegram.me/easy_breezy_english"><i class="fab fa-telegram-plane"></i></a> |
+        <a href="mailto:easy2breezy@yandex.ru"><i class="fas fa-envelope"></i></a>
+    </p>
+</div>
+
+</body>
+</html>
+
         <a href="mailto:easy2breezy@yandex.ru"><i class="fas fa-envelope"></i></a>
     </p>
 </div>
