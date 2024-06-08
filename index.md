@@ -18,8 +18,6 @@
  .my-nav {
       margin-left: -100px;
       margin-bottom: 30px;
-    }
- .my-nav {
       background-color: #f2f2f2; /* add a background color */
       padding: 10px; /* add some padding */
 
@@ -27,7 +25,8 @@
       position: sticky;
       top: 0; /* stick to the top of the viewport */
       z-index: 1; /* make sure the menu stays above other content */
-    .contact-info {
+     }
+.contact-info {
       margin-top: 20px;
       text-align: left;
     }
