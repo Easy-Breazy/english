@@ -5,7 +5,6 @@
   <style>
     .my-image {
       float: right;
-      margin-left: 50px; /* increased margin-left to move the photo more to the right */
       margin-top: -30px;
     }
   </style>
@@ -16,20 +15,30 @@
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
   <style>
-    .footer p:first-child {
-        color: #1e6bb8;
+    .container {
+      /* add a width value that's narrower than the default 100% */
+      width: 80%;
+      /* center the container horizontally */
+      margin: 0 auto;
     }
-	.footer i {
-        font-size: 24px;
-}
-</style>
+    .contact-info {
+      /* add some top margin to separate the contact info from the section title */
+      margin-top: 20px;
+      /* center the links horizontally */
+      text-align: center;
+    }
+    .contact-info a {
+      /* add some right margin to separate the links */
+      margin-right: 20px;
+    }
+  </style>
 	</head>
- <body>
+	<body>
 		<nav class="my-nav">
   <a href="#about-me">Обо мне</a>
   <a href="#how-it-works">Как проходит обучение</a>
   <a href="#reviews">Отзывы</a>
-  <a href="#contacts">Контакты</a> <!-- modified link to point to the "contacts" anchor -->
+  <a href="#contacts">Контакты</a>
 </nav>
   <img src="pics/prof.jpg" class="my-image" width="300">
 		<div class="container">
@@ -50,11 +59,13 @@
 
         <div id="contacts">
             <h2>Контакты</h2>
-            <p>
-        <a href="https://telegram.me/easy_breezy_english"><i class="fab fa-telegram-plane"></i></a> |
-        <a href="mailto:easy2breezy@yandex.ru"><i class="fas fa-envelope"></i></a>
-    </p>
+            <div class="contact-info">
+              <a href="https://telegram.me/easy_breezy_english"><i class="fab fa-telegram-plane"></i></a>
+              <a href="mailto:easy2breezy@yandex.ru"><i class="fas fa-envelope"></i></a>
+            </div>
         </div>
+
+		</div><!-- /.container -->
 
 </body>
 </html>
