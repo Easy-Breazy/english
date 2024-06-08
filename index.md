@@ -31,13 +31,7 @@
 			<link rel="stylesheet" href="https://maryclairewellness.com/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css">			<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
 				<ul id="menu-1-820a78f" class="elementor-nav-menu" data-smartmenus-id="17178568970649229"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-348"><a href="/#about" aria-current="page" class="elementor-item elementor-item-anchor">About</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-81"><a href="/#how-it-works" aria-current="page" class="elementor-item elementor-item-anchor">How It Works</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-992"><a href="#" class="elementor-item elementor-item-anchor has-submenu" id="sm-17178568970649229-1" aria-haspopup="true" aria-controls="sm-17178568970649229-2" aria-expanded="false">Providers<span class="sub-arrow"><i class="fas fa-angle-down"></i></span></a>
-<ul class="sub-menu elementor-nav-menu--dropdown" id="sm-17178568970649229-2" role="group" aria-hidden="true" aria-labelledby="sm-17178568970649229-1" aria-expanded="false">
-	<li class="menu-item menu-item-type-post_type menu-item-object-provider menu-item-991"><a href="https://maryclairewellness.com/provider/dr-mary-claire-haver/" class="elementor-sub-item">Dr. Mary Claire Haver</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-provider menu-item-990"><a href="https://maryclairewellness.com/provider/joan-moss/" class="elementor-sub-item">Joan Moss RN</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-provider menu-item-1048"><a href="https://maryclairewellness.com/provider/mary-turner/" class="elementor-sub-item">Mary Turner MSN</a></li>
-</ul>
-</li>
+
 <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-82"><a href="/#testimonials" aria-current="page" class="elementor-item elementor-item-anchor">Testimonials</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-432"><a href="/#faq" aria-current="page" class="elementor-item elementor-item-anchor">FAQ</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-347"><a href="/#contact" aria-current="page" class="elementor-item elementor-item-anchor">Contact</a></li>
