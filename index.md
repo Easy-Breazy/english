@@ -24,7 +24,7 @@
     }
 
     .wrapper {
-      margin-left: 10px; /* adjust this value as needed */
+      margin-right: 40px; /* adjust this value as needed */
     }
 
     .contact-info {
