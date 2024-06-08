@@ -20,9 +20,9 @@
 	<body>
 		<nav class="my-nav">
   <a href="/">Home</a>
-  <a href="/about">ОБО МНЕ</a>
-  <a href="/blog">БЛОГ</a>
-  <a href="/contact">КОНТАКТЫ</a>
+  <a href="/about">Обо мне</a>
+  <a href="/blog">Блог</a>
+  <a href="/contact">Контакты</a>
 </nav>
   <img src="pics/prof.jpg" class="my-image" width="300">
 		<div class="container">
