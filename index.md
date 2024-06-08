@@ -21,6 +21,9 @@
     .footer p:first-child {
         color: #1e6bb8;
     }
+	.footer i {
+        font-size: 24px;
+}
 </style>
 	</head>
 	<body>
