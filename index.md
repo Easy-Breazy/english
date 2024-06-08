@@ -47,7 +47,7 @@
  <img src="pics/prof.jpg" class="my-image" width="350">
  <div class="container">
     		<div class="blurb">
-        		<h1>Анастасия Большакова</h1>
+        		<h1>Hi there, I'm Anastasia!</h1>
  <ul>
 	    <li>магистр лингвистики, выпускница Бирмингемского университета (UK)</li>
             <li>более 15 лет успешной практики в США, Европе и России</li>
