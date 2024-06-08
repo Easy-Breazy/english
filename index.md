@@ -7,7 +7,7 @@
     .my-image {
       float: right;
       margin-top: 0px;
-      margin-right: -100px;
+      margin-right: -120px;
       padding-left: 60px;
     }
 	  
