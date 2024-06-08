@@ -16,7 +16,6 @@
     }
  .my-nav {
       margin-left: -100px;
-      text-align: left;
       margin-bottom: 30px;
     }
 
