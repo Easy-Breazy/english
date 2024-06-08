@@ -33,7 +33,8 @@
 	
     <!-- New footer section -->
     <div class="footer">
-        <p>Contact me on:
+        <p>КОНТАКТЫ</p>
+    <p>
             <a href="https://telegram.me/easy_breezy_english">Telegram</a> |
             <a href="mailto:easy2breezy@yandex.ru">Email</a>
         </p>
