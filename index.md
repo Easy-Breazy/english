@@ -70,12 +70,7 @@
 </head>
 
 <body>
-  <nav class="my-nav">
-    <a href="#about-me">Обо мне</a>
-    <a href="#how-it-works">Как проходит обучение</a>
-    <a href="#reviews">Отзывы</a>
-    <a href="#contacts">Контакты</a>
-  </nav>
+ 
 
   <!-- Use Bootstrap's grid system for the main content -->
   <div class="container">
