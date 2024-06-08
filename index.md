@@ -9,8 +9,7 @@
       margin-top: 0px;
       margin-right: -100px;
     }
-  </style>
-  <style>
+	  
    .my-nav a {
       margin-right: 30px;
       text-align: left;
@@ -20,12 +19,8 @@
       text-align: left;
       margin-bottom: 30px;
     }
-  </style>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
-  <style>
 
-    }
-   
+ 
     .contact-info {
       margin-top: 20px;
       text-align: left;
@@ -41,6 +36,7 @@
       margin-right: -100px;
     }
   </style>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 	</head>
 	<body>
 	 
