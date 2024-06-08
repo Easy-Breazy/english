@@ -56,8 +56,6 @@
     </p>
         </div>
 
-		</div><!-- /.container -->
-
 
 </body>
 </html>
