@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Easy Breezy English</title>
@@ -28,7 +28,6 @@
       font-size: 30px;
     }
    
-
 .blurb {
       text-align: left;
       margin-left: -80px;
