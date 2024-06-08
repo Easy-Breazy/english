@@ -20,7 +20,7 @@
     }
     h2 {
       /* change the color to #1e6bb8 */
-      color: #1e6bb8;
+      color: #1e6bb8 !important;
     }
     .contact-info {
       /* add some top margin to separate the contact info from the section title */
