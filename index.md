@@ -12,7 +12,7 @@
   </style>
   <style>
     .my-nav a {
-       margin-left: 20px; 
+       margin-left: -20px; 
     }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
@@ -32,7 +32,7 @@
     h2 {
       
       text-align: left;
-      margin-left: 20px;
+      margin-left: -20px;
     }
   </style>
 	</head>
