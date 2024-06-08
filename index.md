@@ -7,8 +7,8 @@
     .my-image {
       float: right;
       margin-top: 0px;
-      margin-right: -120px;
-      padding-left: 60px;
+      margin-right: -140px;
+      padding-left: 50px;
     }
 	  
    .my-nav a {
