@@ -47,8 +47,7 @@
  <img src="pics/prof.jpg" class="my-image" width="350">
  <div class="container">
     		<div class="blurb">
-        		<h1>Hi there, I'm Anastasia!</h1>
-			<h2>Помогаю достигать цели и преодолевать барьеры</h2>
+        		<h1>Помогаю достигать цели и преодолевать барьеры</h1>
  <ul>
 	<li>преподаватель английского-билингв</li>
 	 <li>магистр лингвистики</li>
