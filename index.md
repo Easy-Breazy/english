@@ -73,6 +73,4 @@
 
 		</div><!-- /.container -->
 
-     </body>
-</html>
-
+   
