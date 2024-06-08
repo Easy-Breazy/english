@@ -75,6 +75,6 @@ In my free time, I enjoy traveling, hiking, and practicing yoga. I'm also an avi
 
 		</div><!-- /.container -->
 
-</body>
+     </body>
 </html>
 
