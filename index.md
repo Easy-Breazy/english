@@ -43,7 +43,7 @@
   <a href="#reviews">Отзывы</a>
   <a href="#contacts">Контакты</a>
 </nav>
- <img src="pics/prof.jpg" class="my-image" width="400">
+ <img src="pics/prof.jpg" class="my-image" width="350">
 		<div class="container">
     		<div class="blurb">
         		<h2 id="about-me">Обо мне</h2>
