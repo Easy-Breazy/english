@@ -13,6 +13,7 @@
   <style>
     .my-nav a {
       margin-right: 30px;
+      text-align: left;
     }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
