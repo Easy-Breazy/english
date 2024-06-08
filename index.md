@@ -5,7 +5,7 @@
   <style>
     .my-image {
       float: right;
-      margin-top: -50px;
+      margin-top: 50px;
     }
   </style>
   <style>
@@ -15,11 +15,7 @@
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
   <style>
-    .container {
-      /* add a width value that's narrower than the default 100% */
-      width: 150%;
-      /* center the container horizontally */
-      margin: 0 auto;
+
     }
     h2 {
       /* change the color to #1e6bb8 */
