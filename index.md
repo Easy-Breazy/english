@@ -30,6 +30,14 @@
         		<h1>Hi there, I'm Anastasia!</h1>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
-		
-	</body>
+	
+    <!-- New footer section -->
+    <div class="footer">
+        <p>Contact me on:
+            <a href="https://telegram.me/easy_breezy_english">Telegram</a> |
+            <a href="mailto:easy2breezy@yandex.ru">Email</a>
+        </p>
+    </div>
+
+</body>
 </html>
