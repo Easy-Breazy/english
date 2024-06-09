@@ -106,8 +106,8 @@
     ul li {
   margin-bottom: 10px; /* adjust the value as needed */
 }
-    #reviews, #contacts {
-  margin-bottom: 30px;
+  #reviews, #contacts {
+  display: block;
 }
   </style>
 </head>
