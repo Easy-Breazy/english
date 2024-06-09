@@ -146,8 +146,7 @@
       <div class="studying-container">
   <img src="pics/studying.jpeg" alt="Studying English" class="studying-image">
   <div class="studying-content">
-        <h2>Как проходит обучение</h2>
-        Путь каждого — уникален. Для каждого  
+        <h2>Как проходит обучение</h2> 
         <ul>
           <li><b>Шаг 1: Бесплатная часовая диагностика</b><br>
             Анализируем историю, определяем цели, намечаем путь к успеху
