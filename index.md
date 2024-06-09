@@ -47,7 +47,6 @@
       }
     }
 
-    /* New styles for the list items */
     .headline-content ul {
       line-height: 1.3;
     }
@@ -56,7 +55,6 @@
       line-height: 1.5;
     }
 
-    /* New style for the contact-info icons */
     .contact-info a {
       margin-right: 20px;
     }
@@ -236,7 +234,6 @@
       </div>
     </div>
 
-    <!-- Contacts section -->
     <div id="contacts">
       <h2>Контакты</h2>
       <div class="contact-info text-center">
