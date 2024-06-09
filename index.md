@@ -69,7 +69,7 @@
     }
 
      .text-center img {
-      width: 70%; /* adjust the value as needed */
+      width: 80%; /* adjust the value as needed */
       height: auto; /* maintain the aspect ratio */
        margin-top: 30px;
       margin-bottom: 30px;
@@ -115,7 +115,7 @@
 
       <!-- Add the new image before the how-it-works section -->
       <div class="text-center">
-        <img src="pics/english_class.jpg" class="img-fluid" alt="English class">
+        <img src="pics/studying.jpg" class="img-fluid" alt="Studying English">
       </div>
 
       <div id="how-it-works">
