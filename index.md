@@ -143,7 +143,7 @@
         <img src="pics/prof.jpg" class="my-image img-fluid" alt="Фотография профиля преподавателя">
       </div>
     </div>
-    div class="blurb">
+   <div class="blurb">
       <h2 id="about-me">Обо мне</h2>
       <p>Здравствуйте, друзья!</p>
 
