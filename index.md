@@ -1,4 +1,5 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -46,26 +47,24 @@
         flex-basis: 100%;
         margin-top: 20px;
       }
-   /* Updated styles for the list items */
-#how-it-works ul li {
-  margin-bottom: 1.5em; /* This will add 1.5 times the font-size of space below each list item */
+    }
+
+    /* New styles for the list items */
+    .headline-content ul {
+      line-height: 1.3;
+    }
+
+    #how-it-works ul {
+      line-height: 1.5;
+    }
+
+    /* New style for the YouTube icon */
+    .contact-info a[href*="youtube.com"] {
+      color: #ff0000;
+    }
+    .contact-info a {
+  margin-right: 20px; 
 }
-
-.headline-content ul li {
-  margin-bottom: 1.3em; /* This will add 1.3 times the font-size of space below each list item in the first list */
-}
-
-/* New style for the contact-info icons with added margin */
-.contact-info a {
-  margin-right: 20px;
-
-}
-
-/* New style for the YouTube icon with updated color */
-.contact-info a[href*="youtube.com"] {
-  color: #ff0000; /* This will change the color of the YouTube icon to red */
-}
-
   </style>
 </head>
 
@@ -102,12 +101,6 @@
         I believe that learning a new language is not just about memorizing grammar rules and vocabulary lists, but about immersing yourself in the culture and history of the people who speak it. That's why I incorporate a variety of engaging and interactive activities into my lessons, such as watching and discussing movies and TV shows, reading and analyzing literature, and exploring current events and social issues.
       </p>
 
-      <!-- Add the new image before the how-it-works section -->
-      <div class="text-center">
-        <img src="pics/english_class.jpg" class="img-fluid" alt="English class">
-      </div>
-
-      <div id="how-it-works">
         <h2>Как проходит обучение</h2>
         <ul>
           <li>Шаг 1: Бесплатная часовая диагностика<br>
