@@ -59,8 +59,7 @@
 
     /* New style for the contact-info icons */
     .contact-info a {
-      margin-right: 20px; /* You can adjust this value to increase or decrease the space */
-      margin-left: 20px; /* You can adjust this value to increase or decrease the space */
+      margin-right: 20px; 
     }
 
     /* New style for the YouTube icon */
