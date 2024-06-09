@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 
 <head>
@@ -56,6 +57,11 @@
     #how-it-works ul {
       line-height: 1.5;
     }
+
+    /* New style for the YouTube icon */
+    .contact-info a[href*="youtube.com"] {
+      color: #ff0000;
+    }
   </style>
 </head>
 
@@ -105,7 +111,7 @@
             Обсуждаем достижения и точки роста, отслеживаем метрики, корректируем стратегию
           </li>
         </ul>
-      </div>
+      </div><!-- Add the closing div tag for how-it-works -->
 
       <div id="reviews">
         <h2>Отзывы</h2>
