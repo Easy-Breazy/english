@@ -46,6 +46,7 @@
       }
     }
 
+    /* New styles for the list items */
     .headline-content ul {
       line-height: 1.3;
     }
@@ -54,6 +55,7 @@
       line-height: 1.5;
     }
 
+    /* New style for the contact-info icons */
     .contact-info a {
       margin-right: 20px;
     }
@@ -95,34 +97,7 @@
         margin-top: 20px;
       }
     }
-.success-container {
-      display: flex;
-      flex-wrap: wrap;
-      margin-bottom: 50px;
-    }
 
-    .success-image {
-      flex-basis: 40%;
-      max-width: 40%;
-      height: auto;
-      margin-right: 20px;
-    }
-
-    .success-content {
-      flex-grow: 1;
-      margin-top: 20px;
-    }
-
-    .success-content h2 {
-      margin-bottom: 10px;
-    }
-
-    @media only screen and (max-width: 768px) {
-      .success-image {
-        flex-basis: 100%;
-        max-width: 100%;
-        margin-right: 0;
-      }
     ul li {
       margin-bottom: 10px;
     }
@@ -203,7 +178,7 @@
 
     <div id="reviews-section">
       <div class="success-container">
-      <img src="pics/success.jpeg" alt="Успех" class="success-image img-fluid"">
+      <img src="pics/success.jpeg" alt="Успех" class="success-image" >
       <div class="success-content">
       <h2>Отзывы</h2>
       <div class="review">
