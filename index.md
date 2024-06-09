@@ -170,6 +170,16 @@
          <li>Обширная частная практика: обучение менеджеров высшего звена ведущих российских и зарубежных компаний</li>
         </ul>
       </p>
+     <p> <b> Образование</b>
+       <ul>
+          <li>University of Birmingham, UK<br>
+            Applied Linguistics</li>
+          <li>University of Kansas, USA<br>
+          Marketing and Public Relations</li>
+          <li>University of Cambridge Teaching Knowledge Test</li>
+          <li>TEFL Certificate and TEFL Certificate in Business English</li>
+        </ul>
+      </p>
     </div>
 
     <div id="how-it-works">
