@@ -69,7 +69,7 @@
     }
 
      .text-center img {
-      width: 80%; /* adjust the value as needed */
+      width: 100%; /* adjust the value as needed */
       height: auto; /* maintain the aspect ratio */
        margin-top: 30px;
       margin-bottom: 30px;
