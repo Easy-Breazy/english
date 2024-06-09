@@ -69,8 +69,10 @@
     }
 
      .text-center img {
-      width: 50%; /* adjust the value as needed */
+      width: 70%; /* adjust the value as needed */
       height: auto; /* maintain the aspect ratio */
+       margin-top: 30px;
+      margin-bottom: 30px;
     }
     ul li {
   margin-bottom: 10px; /* adjust the value as needed */
@@ -119,7 +121,7 @@
       <div id="how-it-works">
         <h2>Как проходит обучение</h2>
         <ul>
-          <li><h5>Шаг 1: Бесплатная часовая диагностика</h5><br>
+          <li><b>Шаг 1: Бесплатная часовая диагностика</b><br>
             Анализируем историю изучения, определяем цели, намечаем план пути к успеху
           </li>
           <li>Шаг 2: Радость изучения<br>
