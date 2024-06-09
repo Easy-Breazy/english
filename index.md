@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="ru">
 
 <head>
@@ -47,16 +47,17 @@
         flex-basis: 100%;
         margin-top: 20px;
       }
-    }
-
-    /* New styles for the list items */
-    .headline-content ul {
-      line-height: 1.3;
-    }
-
     #how-it-works ul {
-      line-height: 1.5;
-    }
+  margin-bottom: 0;
+}
+
+#how-it-works ul li {
+  margin-bottom: 1.5em; /* This will add 1.5 times the font-size of space below each list item */
+}
+    
+.headline-content ul:nth-of-type(1) li {
+  margin-bottom: 1.3em; /* This will add 1.3 times the font-size of space below each list item in the first list */
+}
 
     /* New style for the YouTube icon */
     .contact-info a[href*="youtube.com"] {
