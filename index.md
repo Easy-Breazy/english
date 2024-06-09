@@ -46,27 +46,24 @@
         flex-basis: 100%;
         margin-top: 20px;
       }
-   
-
-    /* New style for the contact-info icons */
-    .contact-info a {
-      margin-right: 20px; 
-    }
-
-    /* New style for the YouTube icon */
-    .contact-info a[href*="youtube.com"] {
-      color: #ff0000;
-    }
-    #how-it-works ul {
-  margin-bottom: 0;
-}
-
+   /* Updated styles for the list items */
 #how-it-works ul li {
   margin-bottom: 1.5em; /* This will add 1.5 times the font-size of space below each list item */
 }
-    
-.headline-content ul:nth-of-type(1) li {
+
+.headline-content ul li {
   margin-bottom: 1.3em; /* This will add 1.3 times the font-size of space below each list item in the first list */
+}
+
+/* New style for the contact-info icons with added margin */
+.contact-info a {
+  margin-right: 20px;
+
+}
+
+/* New style for the YouTube icon with updated color */
+.contact-info a[href*="youtube.com"] {
+  color: #ff0000; /* This will change the color of the YouTube icon to red */
 }
 
   </style>
