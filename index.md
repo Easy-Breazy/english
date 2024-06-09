@@ -176,6 +176,4 @@
     </div><!-- /.blurb -->
   </div><!-- /.container -->
 
-</body>
 
-</html>
