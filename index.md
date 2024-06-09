@@ -177,6 +177,9 @@
     </div>
 
     <div id="reviews-section">
+      <div class="success-container">
+      <img src="pics/success.jpeg" alt="Успех" class="success-image">
+      <div class="success-content">
       <h2>Отзывы</h2>
       <div class="review">
         <h4 onclick="toggleReviewContent(0)">Любовь <br> TOEFL, успешное поступление в америкаский колледж</h4>
