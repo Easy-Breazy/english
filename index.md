@@ -166,7 +166,7 @@
       <div id="reviews">
         <h2>Отзывы</h2>
         <!-- add content for the "Отзывы" section here -->
-      </div>
+      </div><br>
 
       <div id="contacts">
         <h2>Контакты</h2>
@@ -178,7 +178,3 @@
       </div>
     </div><!-- /.blurb -->
   </div><!-- /.container -->
-
-</body>
-
-</html>
