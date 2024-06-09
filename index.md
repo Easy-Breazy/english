@@ -101,7 +101,10 @@
       <p>
         I believe that learning a new language is not just about memorizing grammar rules and vocabulary lists, but about immersing yourself in the culture and history of the people who speak it. That's why I incorporate a variety of engaging and interactive activities into my lessons, such as watching and discussing movies and TV shows, reading and analyzing literature, and exploring current events and social issues.
       </p>
-
+ <div class="headline-image">
+        <!-- Updated the image to be responsive and placed to the right of the headline 1 -->
+        <img src="pics/english class.jpg" class="my-image img-fluid" alt="English classroom">
+      </div>
       <div id="how-it-works">
         <h2>Как проходит обучение</h2>
         <ul>
