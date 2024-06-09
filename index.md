@@ -15,7 +15,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 
   <style>
-    /* Updated styles for the image */
     .my-image {
       max-width: 90%;
       height: auto;
@@ -23,7 +22,6 @@
       margin-bottom: 30px;
     }
 
-    /* New styles for the headline 1 content and image container */
     .headline-container {
       display: flex;
       flex-wrap: wrap;
@@ -63,12 +61,10 @@
       margin-right: 20px;
     }
 
-    /* New style for the YouTube icon */
     .contact-info a[href*="youtube.com"] {
       color: #ff0000;
     }
 
-     /* New styles for the studying content and image container */
 .studying-container {
   display: flex;
   flex-wrap: wrap;
@@ -91,7 +87,6 @@
   margin-bottom: 10px;
 }
 
-/* Media query for smaller screens */
 @media only screen and (max-width: 768px) {
   .studying-image {
     flex-basis: 100%;
@@ -115,9 +110,7 @@
 
 <body>
 
-  <!-- Use Bootstrap's grid system for the main content -->
   <div class="container">
-    <!-- New container for the headline 1 content and image -->
     <div class="headline-container">
       <div class="headline-content">
         <h1>Помогаю достигать цели и преодолевать барьеры</h1>
@@ -129,10 +122,9 @@
       </div>
 
       <div class="headline-image">
-        <!-- Updated the image to be responsive and placed to the right of the headline 1 -->
         <img src="pics/prof.jpg" class="my-image img-fluid" alt="Teacher's profile picture">
       </div>
-    </div><!-- /.headline-container -->
+    </div>
 
     <div class="blurb">
       <h2 id="about-me">Обо мне</h2>
@@ -177,5 +169,3 @@
           <a href="http://www.youtube.com/c/EasyBreezyEnglish" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
         </div>
       </div>
-    </div><!-- /.blurb -->
-  </div><!-- /.container -->
