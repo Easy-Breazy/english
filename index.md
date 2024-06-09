@@ -112,7 +112,7 @@
 
       <!-- Add the new image before the how-it-works section -->
       <div class="text-center">
-        <img src="pics/english class.jpg" class="img-fluid" alt="English class">
+        <img src="pics/english_class.jpg" class="img-fluid" alt="English class">
       </div>
 
       <div id="how-it-works">
