@@ -142,14 +142,9 @@
         I believe that learning a new language is not just about memorizing grammar rules and vocabulary lists, but about immersing yourself in the culture and history of the people who speak it. That's why I incorporate a variety of engaging and interactive activities into my lessons, such as watching and discussing movies and TV shows, reading and analyzing literature, and exploring current events and social issues.
       </p>
 
-      <!-- Add the new image before the how-it-works section -->
-      <div class="text-center">
-        <img src="pics/studying.jpeg" class="img-fluid" alt="Studying English">
-      </div>
-
       <div id="how-it-works">
       <div class="studying-container">
-  <img src="/pics/studying.jpeg" alt="Studying English" class="studying-image">
+  <img src="pics/studying.jpeg" alt="Studying English" class="studying-image">
   <div class="studying-content">
         <h2>Как проходит обучение</h2>
         Путь каждого — уникален. Для каждого  
