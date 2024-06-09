@@ -99,15 +99,10 @@
 
       <p>
         "Hello, I'm Jane Doe, and I'm passionate about helping students of all ages and backgrounds improve their English language skills. I have a degree in English literature from the University of XYZ, and I've been teaching English for over 10 years.
-      </p>
-
-      <p>
-        I believe that learning a new language is not just about memorizing grammar rules and vocabulary lists, but about immersing yourself in the culture and history of the people who speak it. That's why I incorporate a variety of engaging and interactive activities into my lessons, such as watching and discussing movies and TV shows, reading and analyzing literature, and exploring current events and social issues.
-      </p>
 
       <!-- Add the new image before the how-it-works section -->
       <div class="text-center">
-        <img src="pics/english_class.jpg" alt="English class" width="300" >
+        <img src="pics/english_class.jpg" alt="English class" width="350" >
       </div>
 
       <div id="how-it-works">
