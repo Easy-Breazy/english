@@ -64,7 +64,6 @@
     }
     .contact-info a {
   margin-right: 20px; 
-  margin-left: 20px; 
 }
   </style>
 </head>
