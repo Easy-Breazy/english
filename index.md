@@ -62,6 +62,10 @@
     .contact-info a[href*="youtube.com"] {
       color: #ff0000;
     }
+    .contact-info a {
+  margin-right: 20px; 
+  margin-left: 20px; 
+}
   </style>
 </head>
 
