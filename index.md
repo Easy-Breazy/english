@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 
 <head>
@@ -96,16 +97,6 @@
         margin-top: 20px;
       }
     }
-
-    ul li {
-      margin-bottom: 10px;
-    }
-
-    #reviews,
-    #contacts {
-      display: block;
-      margin-bottom: 30px;
-    }
   </style>
 </head>
 
@@ -121,7 +112,6 @@
           <li>15 лет успешной практики в США, Европе и России</li>
         </ul>
       </div>
-
       <div class="headline-image">
         <img src="pics/prof.jpg" class="my-image img-fluid" alt="Фотография профиля преподавателя">
       </div>
@@ -130,11 +120,9 @@
     <div class="blurb">
       <h2 id="about-me">Обо мне</h2>
       <p>Здравствуйте, друзья!</p>
-
       <p>
         "Привет, я Джейн Доу, и я страстно увлечена помощью студентам всех возрастов и происхождений в улучшении своих навыков английского языка. У меня есть степень в английской литературе от Университета XYZ, и я преподаю английский язык уже более 10 лет."
       </p>
-
       <p>
         Я верю, что изучение нового языка - это не только запоминание грамматических правил и списков словарного запаса, но и погружение в культуру и историю людей, говорящих на этом языке. Поэтому я включаю различные увлекательные и интерактивные активности в свои уроки, такие как просмотр и обсуждение фильмов и телешоу, чтение и анализ литературы, изучение актуальных событий и социальных проблем.
       </p>
@@ -160,38 +148,41 @@
       </div>
     </div>
 
-    <!-- Reviews Carousel -->
-    <div id="reviews" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="text-center">
-            <h2 class="mb-4">Отзыв 1</h2>
-            <p>Очень довольны результатами обучения!</p>
+    <!-- Reviews Section -->
+    <div id="reviews-section">
+      <h2>Отзывы</h2>
+      <div id="reviews" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="text-center">
+              <h2 class="mb-4">Отзыв 1</h2>
+              <p>Очень довольны результатами обучения!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="text-center">
+              <h2 class="mb-4">Отзыв 2</h2>
+              <p>Преподаватель отлично объясняет материал.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="text-center">
+              <h2 class="mb-4">Отзыв 3</h2>
+              <p>Занятия помогли мне значительно улучшить свой английский.</p>
+            </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <div class="text-center">
-            <h2 class="mb-4">Отзыв 2</h2>
-            <p>Преподаватель отлично объясняет материал.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="text-center">
-            <h2 class="mb-4">Отзыв 3</h2>
-            <p>Занятия помогли мне значительно улучшить свой английский.</p>
-          </div>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#reviews" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#reviews" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#reviews" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#reviews" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
-    <!-- End Reviews Carousel -->
+    <!-- End Reviews Section -->
 
     <!-- Contacts section -->
     <div id="contacts">
