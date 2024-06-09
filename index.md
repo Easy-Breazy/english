@@ -106,9 +106,10 @@
     ul li {
   margin-bottom: 10px; /* adjust the value as needed */
 }
-  #reviews, #contacts {
-  display: block;
-}
+ #reviews, #contacts {
+      display: block;
+      margin-bottom: 30px;
+    }
   </style>
 </head>
 
