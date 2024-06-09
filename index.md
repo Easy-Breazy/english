@@ -54,6 +54,10 @@
     .headline-content ul {
       line-height: 1.3;
     }
+
+    #how-it-works ul {
+  line-height: 1.5;
+}
   </style>
 </head>
 
