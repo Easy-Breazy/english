@@ -1,5 +1,4 @@
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -108,9 +107,25 @@
       display: block;
       margin-bottom: 30px;
     }
+
+    /* Скрыть содержимое отзывов по умолчанию */
+    .review-content {
+      display: none;
+    }
+
+    /* Стилизация заголовка отзыва */
+    .review h3 {
+      background-color: #f0f0f0;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    /* Стилизация активного заголовка отзыва */
+    .review.active h3 {
+      background-color: #ccc;
+    }
   </style>
 </head>
-
 <body>
 
   <div class="container">
@@ -128,8 +143,7 @@
         <img src="pics/prof.jpg" class="my-image img-fluid" alt="Фотография профиля преподавателя">
       </div>
     </div>
-
-    <div class="blurb">
+    div class="blurb">
       <h2 id="about-me">Обо мне</h2>
       <p>Здравствуйте, друзья!</p>
 
@@ -164,20 +178,24 @@
 
     <div id="reviews-section">
       <h2>Отзывы</h2>
-      <div class="review active">
-        <h3>Отзыв 1</h3>
-        <p>Очень довольны результатами обучения!</p>
+      <div class="review">
+        <h3 onclick="toggleReviewContent(0)">Отзыв 1</h3>
+        <div class="review-content">
+          <p>Очень довольны результатами обучения!</p>
+        </div>
       </div>
       <div class="review">
-        <h3>Отзыв 2</h3>
-        <p>Преподаватель отлично объясняет материал.</p>
+        <h3 onclick="toggleReviewContent(1)">Отзыв 2</h3>
+        <div class="review-content">
+          <p>Преподаватель отлично объясняет материал.</p>
+        </div>
       </div>
       <div class="review">
-        <h3>Отзыв 3</h3>
-        <p>Занятия помогли мне значительно улучшить свой английский.</p>
+        <h3 onclick="toggleReviewContent(2)">Отзыв 3</h3>
+        <div class="review-content">
+          <p>Занятия помогли мне значительно улучшить свой английский.</p>
+        </div>
       </div>
-      <button class="btn btn-primary" onclick="showPreviousReview()">Предыдущий</button>
-      <button class="btn btn-primary" onclick="showNextReview()">Следующий</button>
     </div>
 
     <!-- Contacts section -->
@@ -191,29 +209,22 @@
     </div>
   </div>
 
-<script>
-  var reviews = document.querySelectorAll('.review');
-  var currentReviewIndex = 0;
-
-  function showPreviousReview() {
-    reviews[currentReviewIndex].classList.remove('active');
-    currentReviewIndex--;
-    if (currentReviewIndex < 0) {
-      currentReviewIndex = reviews.length - 1;
+  <script>
+    function toggleReviewContent(index) {
+      var reviewContent = document.getElementsByClassName("review-content");
+      for (var i = 0; i < reviewContent.length; i++) {
+        if (i === index) {
+          if (reviewContent[i].style.display === "block") {
+            reviewContent[i].style.display = "none";
+          } else {
+            reviewContent[i].style.display = "block";
+          }
+        } else {
+          reviewContent[i].style.display = "none";
+        }
+      }
     }
-    reviews[currentReviewIndex].classList.add('active');
-  }
-
-  function showNextReview() {
-    reviews[currentReviewIndex].classList.remove('active');
-    currentReviewIndex++;
-    if (currentReviewIndex >= reviews.length) {
-      currentReviewIndex = 0;
-    }
-    reviews[currentReviewIndex].classList.add('active');
-  }
-</script>
+  </script>
 
 </body>
-
 </html>
