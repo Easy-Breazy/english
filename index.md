@@ -66,6 +66,14 @@
     .contact-info a[href*="youtube.com"] {
       color: #ff0000;
     }
+    #how-it-works ul {
+  margin-bottom: 0;
+}
+
+#how-it-works ul li {
+  margin-bottom: 1.5em; /* This will add 1.5 times the font-size of space below each list item */
+}
+
   </style>
 </head>
 
