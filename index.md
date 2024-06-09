@@ -121,7 +121,7 @@
     }
 
     /* Стилизация активного заголовка отзыва */
-    .review.active h3 {
+    .review.active h4 {
       background-color: #ccc;
     }
   </style>
