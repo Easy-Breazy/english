@@ -1,5 +1,4 @@
 
-<!DOCTYPE html>
 <html lang="ru">
 
 <head>
@@ -67,6 +66,11 @@
     /* New style for the YouTube icon */
     .contact-info a[href*="youtube.com"] {
       color: #ff0000;
+    }
+
+     .text-center img {
+      width: 50%; /* adjust the value as needed */
+      height: auto; /* maintain the aspect ratio */
     }
   </style>
 </head>
