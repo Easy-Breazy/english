@@ -163,7 +163,7 @@
     </div>
 
     <!-- Reviews Carousel -->
-       <div id="reviews-section">
+         <div id="reviews-section">
       <h2>Отзывы</h2>
       <div id="reviews" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
         <div class="carousel-inner">
