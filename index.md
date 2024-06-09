@@ -162,41 +162,23 @@
       </div>
     </div>
 
-    <!-- Reviews Carousel -->
-         <div id="reviews-section">
+    <div id="reviews-section">
       <h2>Отзывы</h2>
-      <div id="reviews" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="text-center">
-              <h2 class="mb-4">Отзыв 1</h2>
-              <p>Очень довольны результатами обучения!</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="text-center">
-              <h2 class="mb-4">Отзыв 2</h2>
-              <p>Преподаватель отлично объясняет материал.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="text-center">
-              <h2 class="mb-4">Отзыв 3</h2>
-              <p>Занятия помогли мне значительно улучшить свой английский.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#reviews" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#reviews" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      <div class="review active">
+        <h3>Отзыв 1</h3>
+        <p>Очень довольны результатами обучения!</p>
       </div>
+      <div class="review">
+        <h3>Отзыв 2</h3>
+        <p>Преподаватель отлично объясняет материал.</p>
+      </div>
+      <div class="review">
+        <h3>Отзыв 3</h3>
+        <p>Занятия помогли мне значительно улучшить свой английский.</p>
+      </div>
+      <button class="btn btn-primary" onclick="showPreviousReview()">Предыдущий</button>
+      <button class="btn btn-primary" onclick="showNextReview()">Следующий</button>
     </div>
-    <!-- End Reviews Carousel -->
 
     <!-- Contacts section -->
     <div id="contacts">
