@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -118,8 +117,16 @@
         <div class="contact-info text-center">
           <a href="https://telegram.me/easy_breezy_english"><i class="fab fa-telegram-plane fa-2x"></i></a>
           <a href="mailto:easy2breezy@yandex.ru"><i class="fas fa-envelope fa-2x"></i></a>
+          <a href="http://www.youtube.com/c/EasyBreezyEnglish" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
         </div>
       </div>
+    </div><!-- /.blurb -->
+  </div><!-- /.container -->
+
+</body>
+
+</html>
+
     </div><!-- /.blurb -->
   </div><!-- /.container -->
 
