@@ -1,4 +1,5 @@
-<html lang="ru">
+<<html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -64,20 +65,23 @@
       color: #ff0000;
     }
 
-    .studying-container {
+    .studying-container,
+    .success-container {
       display: flex;
       flex-wrap: wrap;
       margin-bottom: 50px;
     }
 
-    .studying-image {
+    .studying-image,
+    .success-image {
       flex-basis: 40%;
       max-width: 40%;
       height: auto;
       margin-right: 20px;
     }
 
-    .studying-content {
+    .studying-content,
+    .success-content {
       flex-grow: 1;
       margin-top: 20px;
     }
@@ -87,13 +91,15 @@
     }
 
     @media only screen and (max-width: 768px) {
-      .studying-image {
+      .studying-image,
+      .success-image {
         flex-basis: 100%;
         max-width: 100%;
         margin-right: 0;
       }
 
-      .studying-content {
+      .studying-content,
+      .success-content {
         margin-top: 20px;
       }
     }
@@ -108,19 +114,16 @@
       margin-bottom: 30px;
     }
 
-    /* Скрыть содержимое отзывов по умолчанию */
     .review-content {
       display: none;
     }
 
-    /* Стилизация заголовка отзыва */
     .review h4 {
       background-color: #f0f0f0;
       padding: 10px;
       cursor: pointer;
     }
 
-    /* Стилизация активного заголовка отзыва */
     .review.active h4 {
       background-color: #ccc;
     }
@@ -178,7 +181,7 @@
 
     <div id="reviews-section">
       <div class="success-container">
-      <img src="pics/success.jpeg" alt="Успех" class="success-image" >
+      <img src="pics/success.jpeg" alt="Успех" class="studying-image">
       <div class="success-content">
       <h2>Отзывы</h2>
       <div class="review">
