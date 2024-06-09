@@ -48,7 +48,6 @@
       }
     }
 
-    /* New styles for the list items */
     .headline-content ul {
       line-height: 1.3;
     }
@@ -57,7 +56,6 @@
       line-height: 1.5;
     }
 
-    /* New style for the contact-info icons */
     .contact-info a {
       margin-right: 20px;
     }
@@ -210,4 +208,3 @@
 </body>
 
 </html>
-
