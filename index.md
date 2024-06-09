@@ -128,7 +128,6 @@
           <a href="mailto:easy2breezy@yandex.ru"><i class="fas fa-envelope fa-2x"></i></a>
           <a href="http://www.youtube.com/c/EasyBreezyEnglish" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
         </div>
-      </div>
     </div><!-- /.blurb -->
   </div><!-- /.container -->
 
