@@ -190,40 +190,30 @@
       </div>
     </div>
   </div>
-  // Получаем все элементы с классом "review"
-  var reviews = document.querySelectorAll('.review');
 
-  // Устанавливаем индекс текущего отзыва
+<script>
+  var reviews = document.querySelectorAll('.review');
   var currentReviewIndex = 0;
 
-  // Функция для отображения предыдущего отзыва
   function showPreviousReview() {
-    // Скрываем текущий отзыв
     reviews[currentReviewIndex].classList.remove('active');
-    // Уменьшаем индекс текущего отзыва
     currentReviewIndex--;
-    // Если индекс стал меньше нуля, переходим к последнему отзыву
     if (currentReviewIndex < 0) {
       currentReviewIndex = reviews.length - 1;
     }
-    // Показываем предыдущий отзыв
     reviews[currentReviewIndex].classList.add('active');
   }
 
-  // Функция для отображения следующего отзыва
   function showNextReview() {
-    // Скрываем текущий отзыв
     reviews[currentReviewIndex].classList.remove('active');
-    // Увеличиваем индекс текущего отзыва
     currentReviewIndex++;
-    // Если индекс стал больше или равен количеству отзывов, переходим к первому отзыву
     if (currentReviewIndex >= reviews.length) {
       currentReviewIndex = 0;
     }
-    // Показываем следующий отзыв
     reviews[currentReviewIndex].classList.add('active');
   }
 </script>
+
 </body>
 
 </html>
