@@ -68,12 +68,41 @@
       color: #ff0000;
     }
 
-     .text-center img {
-      width: 100%; /* adjust the value as needed */
-      height: auto; /* maintain the aspect ratio */
-       margin-top: 30px;
-      margin-bottom: 30px;
-    }
+     /* New styles for the studying content and image container */
+.studying-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.studying-image {
+  flex-basis: 40%;
+  max-width: 40%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.studying-content {
+  flex-grow: 1;
+  margin-top: 20px;
+}
+
+.studying-content h2 {
+  margin-bottom: 10px;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .studying-image {
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .studying-content {
+    margin-top: 20px;
+  }
+}
     ul li {
   margin-bottom: 10px; /* adjust the value as needed */
 }
@@ -119,7 +148,11 @@
       </div>
 
       <div id="how-it-works">
+      <div class="studying-container">
+  <img src="/pics/studying.jpeg" alt="Studying English" class="studying-image">
+  <div class="studying-content">
         <h2>Как проходит обучение</h2>
+        Путь каждого — уникален. Для каждого  
         <ul>
           <li><b>Шаг 1: Бесплатная часовая диагностика</b><br>
             Анализируем историю, определяем цели, намечаем путь к успеху
