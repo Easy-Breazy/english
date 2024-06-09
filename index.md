@@ -160,7 +160,7 @@
         </ul>
       </div><!-- Add the closing div tag for how-it-works -->
 
-      <div id="reviews">
+     <div id="reviews">
         <h2>Отзывы</h2>
         <!-- add content for the "Отзывы" section here -->
       </div>
@@ -175,5 +175,7 @@
       </div>
     </div><!-- /.blurb -->
   </div><!-- /.container -->
+
+</body>
 
 
