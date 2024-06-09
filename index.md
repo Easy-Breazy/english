@@ -72,6 +72,9 @@
       width: 50%; /* adjust the value as needed */
       height: auto; /* maintain the aspect ratio */
     }
+    ul li {
+  margin-bottom: 10px; /* adjust the value as needed */
+}
   </style>
 </head>
 
