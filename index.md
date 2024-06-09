@@ -1,13 +1,19 @@
-<!DOCTYPE html>
+
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Easy Breezy English</title>
+
+  <!-- Add Bootstrap CSS and JS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/XVU5K5y5f38F6UmJgf5gDJz3xjm75UaKdMRKf" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybBud7TlRbs/ic4AwGcFZOxg5DpPt8EgeUIgIwzjWfXQKWA3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+  <!-- Add Font Awesome icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
   <style>
     /* Updated styles for the image */
     .my-image {
@@ -63,30 +69,30 @@
     }
 
      /* New styles for the studying content and image container */
-  .studying-container {
+.studying-container {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 50px;
-  }
+}
 
-  .studying-image {
+.studying-image {
   flex-basis: 40%;
   max-width: 40%;
   height: auto;
   margin-right: 20px;
-  }
+}
 
-  .studying-content {
+.studying-content {
   flex-grow: 1;
   margin-top: 20px;
-  }
+}
 
-  .studying-content h2 {
+.studying-content h2 {
   margin-bottom: 10px;
-  }
+}
 
-  /* Media query for smaller screens */
-  @media only screen and (max-width: 768px) {
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
   .studying-image {
     flex-basis: 100%;
     max-width: 100%;
@@ -96,59 +102,80 @@
   .studying-content {
     margin-top: 20px;
   }
-  }
+}
     ul li {
   margin-bottom: 10px; /* adjust the value as needed */
-  }
+}
     #reviews, #contacts {
   margin-bottom: 30px;
-  }
+}
   </style>
 </head>
+
 <body>
+
+  <!-- Use Bootstrap's grid system for the main content -->
   <div class="container">
+    <!-- New container for the headline 1 content and image -->
     <div class="headline-container">
       <div class="headline-content">
         <h1>Помогаю достигать цели и преодолевать барьеры</h1>
         <ul>
           <li>Преподаватель английского-билингв</li>
           <li>Магистр лингвистики, Бирмингемский университет (UK)</li>
-          <li>15 лет успешной практики в США, Европе и России</li>
+<li>15 лет успешной практики в США, Европе и России</li>
         </ul>
       </div>
-      <div class="headline-image"><img src="pics/prof.jpg" class="my-image img-fluid" alt="Teacher's profile picture"></div>
-    </div>
+
+      <div class="headline-image">
+        <!-- Updated the image to be responsive and placed to the right of the headline 1 -->
+        <img src="pics/prof.jpg" class="my-image img-fluid" alt="Teacher's profile picture">
+      </div>
+    </div><!-- /.headline-container -->
+
     <div class="blurb">
       <h2 id="about-me">Обо мне</h2>
       <p>Здравствуйте, друзья!</p>
-      <p>"Hello, I'm Jane Doe, and I'm passionate about helping students of all ages and backgrounds improve their English language skills. I have a degree in English literature from the University of XYZ, and I've been teaching English for over 10 years.</p>
-      <p>I believe that learning a new language is not just about memorizing grammar rules and vocabulary lists, but about immersing yourself in the culture and history of the people who speak it. That's why I incorporate a variety of engaging and interactive activities into my lessons, such as watching and discussing movies and TV shows, reading and analyzing literature, and exploring current events and social issues.</p>
+
+      <p>
+        "Hello, I'm Jane Doe, and I'm passionate about helping students of all ages and backgrounds improve their English language skills. I have a degree in English literature from the University of XYZ, and I've been teaching English for over 10 years.
+      </p>
+
+      <p>
+        I believe that learning a new language is not just about memorizing grammar rules and vocabulary lists, but about immersing yourself in the culture and history of the people who speak it. That's why I incorporate a variety of engaging and interactive activities into my lessons, such as watching and discussing movies and TV shows, reading and analyzing literature, and exploring current events and social issues.
+      </p>
+
       <div id="how-it-works">
-        <div class="studying-container">
-          <img src="pics/studying.jpeg" alt="Studying English" class="studying-image">
-          <div class="studying-content">
-            <h2>Как проходит обучение</h2>
-            <ul>
-              <li><b>Шаг 1: Бесплатная часовая диагностика</b><br>
-              Анализируем историю, определяем цели, намечаем путь к успеху</li>
-              <li><b>Шаг 2: Радость изучения</b><br>
-              Получаем удовольствие от растущих компетенций и интереснейших встреч с английским</li>
-              <li><b>Шаг 3: Оценка прогресса</b><br>
-              Обсуждаем достижения и точки роста, отслеживаем метрики, корректируем стратегию</li>
-            </ul>
-          </div>
-          <div id="reviews">
-            <h2>Отзывы</h2>
-          </div>
-          <div id="contacts">
-            <h2>Контакты</h2>
-            <div class="contact-info text-center">
-              <a href="https://telegram.me/easy_breezy_english"></a> <a href="mailto:easy2breezy@yandex.ru"></a> <a href="http://www.youtube.com/c/EasyBreezyEnglish" target="_blank"></a>
-            </div>
-          </div>
+      <div class="studying-container">
+  <img src="pics/studying.jpeg" alt="Studying English" class="studying-image">
+  <div class="studying-content">
+        <h2>Как проходит обучение</h2> 
+        <ul>
+          <li><b>Шаг 1: Бесплатная часовая диагностика</b><br>
+            Анализируем историю, определяем цели, намечаем путь к успеху
+          </li>
+          <li><b>Шаг 2: Радость изучения</b><br>
+            Получаем удовольствие от растущих компетенций и интереснейших встреч с английским
+          </li>
+          <li><b>Шаг 3: Оценка прогресса</b><br>
+            Обсуждаем достижения и точки роста, отслеживаем метрики, корректируем стратегию
+          </li>
+        </ul>
+      </div><!-- Add the closing div tag for how-it-works -->
+
+     <div id="reviews">
+        <h2>Отзывы</h2>
+        <!-- add content for the "Отзывы" section here -->
+      </div>
+
+      <div id="contacts">
+        <h2>Контакты</h2>
+        <div class="contact-info text-center">
+          <a href="https://telegram.me/easy_breezy_english"><i class="fab fa-telegram-plane fa-2x"></i></a>
+          <a href="mailto:easy2breezy@yandex.ru"><i class="fas fa-envelope fa-2x"></i></a>
+          <a href="http://www.youtube.com/c/EasyBreezyEnglish" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
         </div>
       </div>
-    </div>
-  </div>
-</body>
-</html>
+    </div><!-- /.blurb -->
+  </div><!-- /.container -->
+
