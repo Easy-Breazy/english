@@ -114,7 +114,7 @@
     }
 
     /* Стилизация заголовка отзыва */
-    .review h3 {
+    .review h4 {
       background-color: #f0f0f0;
       padding: 10px;
       cursor: pointer;
