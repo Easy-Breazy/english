@@ -115,7 +115,7 @@
 
       <!-- Add the new image before the how-it-works section -->
       <div class="text-center">
-        <img src="pics/studying.jpg" class="img-fluid" alt="Studying English">
+        <img src="pics/studying.jpeg" class="img-fluid" alt="Studying English">
       </div>
 
       <div id="how-it-works">
