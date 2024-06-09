@@ -1,4 +1,3 @@
-
 <html lang="ru">
 
 <head>
@@ -7,9 +6,9 @@
   <title>Easy Breezy English</title>
 
   <!-- Add Bootstrap CSS and JS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/XVU5K5y5f38F6UmJgf5gDJz3xjm75UaKdMRKf" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybBud7TlRbs/ic4AwGcFZOxg5DpPt8EgeUIgIwzjWfXQKWA3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 
   <!-- Add Font Awesome icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
@@ -48,6 +47,7 @@
       }
     }
 
+    /* New styles for the list items */
     .headline-content ul {
       line-height: 1.3;
     }
@@ -56,6 +56,7 @@
       line-height: 1.5;
     }
 
+    /* New style for the contact-info icons */
     .contact-info a {
       margin-right: 20px;
     }
@@ -97,6 +98,16 @@
         margin-top: 20px;
       }
     }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    #reviews,
+    #contacts {
+      display: block;
+      margin-bottom: 30px;
+    }
   </style>
 </head>
 
@@ -112,6 +123,7 @@
           <li>15 лет успешной практики в США, Европе и России</li>
         </ul>
       </div>
+
       <div class="headline-image">
         <img src="pics/prof.jpg" class="my-image img-fluid" alt="Фотография профиля преподавателя">
       </div>
@@ -120,9 +132,11 @@
     <div class="blurb">
       <h2 id="about-me">Обо мне</h2>
       <p>Здравствуйте, друзья!</p>
+
       <p>
         "Привет, я Джейн Доу, и я страстно увлечена помощью студентам всех возрастов и происхождений в улучшении своих навыков английского языка. У меня есть степень в английской литературе от Университета XYZ, и я преподаю английский язык уже более 10 лет."
       </p>
+
       <p>
         Я верю, что изучение нового языка - это не только запоминание грамматических правил и списков словарного запаса, но и погружение в культуру и историю людей, говорящих на этом языке. Поэтому я включаю различные увлекательные и интерактивные активности в свои уроки, такие как просмотр и обсуждение фильмов и телешоу, чтение и анализ литературы, изучение актуальных событий и социальных проблем.
       </p>
@@ -148,41 +162,38 @@
       </div>
     </div>
 
-    <!-- Reviews Section -->
-    <div id="reviews-section">
-      <h2>Отзывы</h2>
-      <div id="reviews" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="text-center">
-              <h2 class="mb-4">Отзыв 1</h2>
-              <p>Очень довольны результатами обучения!</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="text-center">
-              <h2 class="mb-4">Отзыв 2</h2>
-              <p>Преподаватель отлично объясняет материал.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="text-center">
-              <h2 class="mb-4">Отзыв 3</h2>
-              <p>Занятия помогли мне значительно улучшить свой английский.</p>
-            </div>
+    <!-- Reviews Carousel -->
+    <div id="reviews" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="text-center">
+            <h2 class="mb-4">Отзыв 1</h2>
+            <p>Очень довольны результатами обучения!</p>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#reviews" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#reviews" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+          <div class="text-center">
+            <h2 class="mb-4">Отзыв 2</h2>
+            <p>Преподаватель отлично объясняет материал.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="text-center">
+            <h2 class="mb-4">Отзыв 3</h2>
+            <p>Занятия помогли мне значительно улучшить свой английский.</p>
+          </div>
+        </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#reviews" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#reviews" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <!-- End Reviews Section -->
+    <!-- End Reviews Carousel -->
 
     <!-- Contacts section -->
     <div id="contacts">
