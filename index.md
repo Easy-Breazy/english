@@ -40,6 +40,7 @@
       .headline-content {
         margin-right: 0;
       }
+
       .headline-image {
         flex-basis: 100%;
         margin-top: 20px;
@@ -161,11 +162,32 @@
       </div>
     </div>
 
-    <div id="reviews">
-      <h2>Отзывы</h2>
-      <!-- Здесь можно добавить отзывы -->
+    <!-- Reviews Carousel -->
+    <div id="reviews" class="carousel slide" data-bs-ride="carousel">
+      <h2 class="text-center mb-4">Отзывы</h2>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <p>Отзыв 1: Очень довольны результатами обучения!</p>
+        </div>
+        <div class="carousel-item">
+          <p>Отзыв 2: Преподаватель отлично объясняет материал.</p>
+        </div>
+        <div class="carousel-item">
+          <p>Отзыв 3: Занятия помогли мне значительно улучшить свой английский.</p>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#reviews" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#reviews" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+    <!-- End Reviews Carousel -->
 
+    <!-- Contacts section -->
     <div id="contacts">
       <h2>Контакты</h2>
       <div class="contact-info text-center">
