@@ -1,4 +1,4 @@
-<html lang="ru">
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -130,12 +130,12 @@
 
 <body>
 
-  <div class="container">
+ <div class="container">
     <div class="headline-container">
       <div class="headline-content">
         <h1>Помогаю достигать цели и преодолевать барьеры</h1>
         <p>Меня зовут Анастасия, я профессиональный преподаватель английского для взрослых</p>
-    </div>
+      </div> 
 
     <div class="row mt-5">
       <div class="col-md-8 order-md-1">
@@ -252,3 +252,5 @@
       }
     }
   </script>
+</body>
+</html>
