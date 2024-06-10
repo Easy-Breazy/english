@@ -98,6 +98,7 @@
       .studying-content,
       .success-content {
         margin-top: 20px;
+        margin-bottom: 20px;
       }
     }
 
@@ -108,7 +109,7 @@
     #reviews,
     #contacts {
       display: block;
-      margin-bottom: 10px;
+      margin-bottom: 30px;
     }
 
     .review-content {
