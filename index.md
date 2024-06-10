@@ -1,4 +1,3 @@
-
 <html lang="ru">
 
 <head>
@@ -16,7 +15,7 @@
 
   <style>
     .my-image {
-      max-width: 100%;
+      max-width: 90%;
       height: auto;
       margin-top: 30px;
       margin-bottom: 30px;
@@ -142,7 +141,6 @@
       </div>
     </div>
 
-    <!-- About Me Section -->
     <div class="row mt-5">
       <div class="col-md-8">
         <h2 id="about-me">Обо мне</h2>
