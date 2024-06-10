@@ -43,6 +43,7 @@
       .headline-image {
         flex-basis: 100%;
         margin-top: 20px;
+        margin-right: 20px;
       }
     }
 
