@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 
 <head>
@@ -15,7 +16,7 @@
 
   <style>
     .my-image {
-      max-width: 90%;
+      max-width: 100%;
       height: auto;
       margin-top: 30px;
       margin-bottom: 30px;
@@ -127,24 +128,28 @@
     }
   </style>
 </head>
+
 <body>
 
   <div class="container">
     <div class="headline-container">
       <div class="headline-content">
         <h1>Помогаю достигать цели и преодолевать барьеры</h1>
-          <p>Меня зовут Анастасия, я профессиональный преподаватель английского для взрослых</p>
+        <p>Меня зовут Анастасия, я профессиональный преподаватель английского для взрослых</p>
       </div>
       <div class="headline-image">
         <img src="pics/prof.jpg" class="my-image img-fluid" alt="Фотография профиля преподавателя">
       </div>
     </div>
-   <div class="about-me">
-      <h2 id="about-me">Обо мне</h2>
-       <ul>
+
+    <!-- About Me Section -->
+    <div class="row mt-5">
+      <div class="col-md-8">
+        <h2 id="about-me">Обо мне</h2>
+        <ul>
           <li>Билингв</li>
-         <li>Магистр лингвистики, Бирмингемский университет (UK)</li>
-        <li>15 лет успешной преподавательской практики в США, Европе и России</li>
+          <li>Магистр лингвистики, Бирмингемский университет (UK)</li>
+          <li>15 лет успешной преподавательской практики в США, Европе и России</li>
         </ul>
      <p> <b> Опыт работы</b>
        <ul>
