@@ -141,7 +141,6 @@
 
   <div class="row mt-5">
     <div class="col-md-8 order-md-1">
-      <h2 id="about-me">Обо мне</h2>
       <ul>
         <li>Билингв</li>
         <li>Магистр лингвистики, Бирмингемский университет (UK)</li>
