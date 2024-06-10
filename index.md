@@ -1,5 +1,4 @@
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,6 +13,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 
   <style>
+    /* Add this CSS rule to make the "prof" picture appear smaller on desktop */
+    .headline-image img {
+      max-width: 250px; /* You can adjust this value as needed */
+      width: 100%;
+      height: auto;
+    }
+
     .headline-container {
       display: flex;
       flex-wrap: wrap;
@@ -35,7 +41,7 @@
       }
 
       .headline-image {
-        flex-basis: 100%;
+        flex-basis: 80%;
         margin-top: 20px;
       }
     }
@@ -120,6 +126,7 @@
     }
   </style>
 </head>
+
 
 <body>
 
