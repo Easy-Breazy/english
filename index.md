@@ -13,13 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 
   <style>
-    /* Add this CSS rule to make the "prof" picture appear smaller on desktop */
-    .headline-image img {
-      max-width: 270px; /* You can adjust this value as needed */
-      width: 100%;
-      height: auto;
-    }
-
+   
     .headline-container {
       display: flex;
       flex-wrap: wrap;
@@ -31,7 +25,7 @@
     }
 
     .headline-image {
-      flex-basis: 300px;
+      flex-basis: 270px;
       margin-top: 20px;
     }
 
