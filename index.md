@@ -108,7 +108,7 @@
     #reviews,
     #contacts {
       display: block;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
     .review-content {
