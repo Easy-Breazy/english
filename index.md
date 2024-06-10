@@ -156,7 +156,7 @@
          <li>Обширная частная практика: индивидуальные курсы для топ-менеджеров Яндекса, Ozon, Сбербанка, VK, Магнита</li>
         </ul>
       </p>
-     <p> <b> Образование</b>
+     <p> <b> Образование и сертификаты</b>
        <ul>
           <li>University of Birmingham, UK<br>
             Applied Linguistics</li>
@@ -164,6 +164,7 @@
           Marketing and Public Relations</li>
           <li>University of Cambridge Teaching Knowledge Test</li>
           <li>TEFL Certificate and TEFL Certificate in Business English</li>
+         <li>TOEFL: 119 баллов из 120 возможных</li>
         </ul>
       </p>
     </div>
