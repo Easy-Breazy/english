@@ -24,6 +24,12 @@
       margin-right: 20px;
     }
 
+    .headline-image img {
+      max-width: 270px; 
+      width: 100%;
+      height: auto;
+    }
+
     .headline-image {
       flex-basis: 270px;
       margin-top: 20px;
