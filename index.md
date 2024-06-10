@@ -15,7 +15,7 @@
   <style>
     /* Add this CSS rule to make the "prof" picture appear smaller on desktop */
     .headline-image img {
-      max-width: 260px; /* You can adjust this value as needed */
+      max-width: 270px; /* You can adjust this value as needed */
       width: 100%;
       height: auto;
     }
@@ -31,7 +31,7 @@
     }
 
     .headline-image {
-      flex-basis: 260px;
+      flex-basis: 300px;
       margin-top: 20px;
     }
 
