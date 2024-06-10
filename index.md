@@ -31,7 +31,7 @@
     }
 
     .headline-image {
-      flex-basis: 300px;
+      flex-basis: 260px;
       margin-top: 20px;
     }
 
