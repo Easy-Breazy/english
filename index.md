@@ -14,13 +14,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 
   <style>
-    .my-image {
-      max-width: 100%;
-      height: auto;
-      margin-top: 30px;
-      margin-bottom: 30px;
-    }
-
     .headline-container {
       display: flex;
       flex-wrap: wrap;
