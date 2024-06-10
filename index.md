@@ -41,7 +41,7 @@
       }
 
       .headline-image {
-        flex-basis: 80%;
+        flex-basis: 100%;
         margin-top: 20px;
       }
     }
