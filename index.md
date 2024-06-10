@@ -15,7 +15,7 @@
 
   <style>
     .my-image {
-      max-width: 90%;
+      max-width: 100%;
       height: auto;
       margin-top: 30px;
       margin-bottom: 30px;
@@ -142,7 +142,7 @@
     </div>
 
     <div class="row mt-5">
-      <div class="col-md-8">
+      <div class="col-md-8 order-md-1">
         <h2 id="about-me">Обо мне</h2>
         <ul>
           <li>Билингв</li>
